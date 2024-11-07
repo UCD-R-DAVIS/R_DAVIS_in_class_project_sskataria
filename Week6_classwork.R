@@ -51,3 +51,9 @@ install.packages("tigris")
 library(tigris)
 
 install.packages("sf")
+
+install.packages("sf")
+
+library(sf)
+
+ca_counties= tigris::counties(state = "CA", class("sf"))
